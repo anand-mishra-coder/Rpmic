@@ -1,0 +1,17 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+import { getAuth } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyA6ZA_EYlt_-OKEHnZ3doBAcx5TyBwsBzE",
+  authDomain: "pwadd-4a505.firebaseapp.com",
+  projectId: "pwadd-4a505",
+  storageBucket: "pwadd-4a505.firebasestorage.app",
+  messagingSenderId: "79250223347",
+  appId: "1:79250223347:web:05777d284c86d2e88bc786",
+  measurementId: "G-M6L6VHX1SW"
+};
+
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
+export const db = getFirestore(app);
