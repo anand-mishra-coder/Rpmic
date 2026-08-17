@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <title>Ramphal Memorial Inter College</title>
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <a class="brand" href="index.html">RMIC</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/notices.html">Notices</a>
+        <a href="pages/contact.html">Contact</a>
+        <a class="btn" href="login.html">Sign in</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <span class="eyebrow">RAMphal Memorial Inter College</span>
+          <h1>Learning today. Leading tomorrow.</h1>
+          <p>A modern digital school experience for students, teachers, parents and school leadership.</p>
+          <div class="actions">
+            <a class="btn primary" href="login.html">Open School Portal</a>
+            <a class="btn" href="pages/about.html">Explore School</a>
+          </div>
+        </div>
+      </section>
+      <section class="grid three">
+        <article class="card"><h3>Student Portal</h3><p>Attendance, timetable, homework, exams, results and resources.</p></article>
+        <article class="card"><h3>Teacher Portal</h3><p>Classes, attendance, assignments, marks and communication.</p></article>
+        <article class="card"><h3>School Management</h3><p>Role-based administration, reports, notices and analytics.</p></article>
+      </section>
+    </main>
+    <footer>© <span id="year"></span> Ramphal Memorial Inter College</footer>
+  </div>
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>

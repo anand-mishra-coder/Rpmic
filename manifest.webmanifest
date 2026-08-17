@@ -1,0 +1,9 @@
+{
+  "name":"Ramphal Memorial Inter College",
+  "short_name":"RMIC",
+  "start_url":"/index.html",
+  "display":"standalone",
+  "background_color":"#f4f7fb",
+  "theme_color":"#0b1220",
+  "icons":[]
+}
